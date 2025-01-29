@@ -1,9 +1,10 @@
+
 **General discription:**
 This application is a practical example of multitasking application using FreeRTOS running on STM32F407 Discovery board. 
 The application uses:
-a. queues and task notification api for syncronization 
-b. interrupts, HW timer, SW timer, RTC, uart communication
-c. debug options - print out to the IDE Consol (via ST-Link)
+1. queues and task notification api for syncronization 
+2. interrupts, HW timer, SW timer, RTC, uart communication
+3. debug options - print out to the IDE Consol (via ST-Link)
 
 **Requierments:**
 STM32F407 Discovery Board + USB Power cable
