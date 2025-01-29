@@ -32,8 +32,7 @@ The application is using printf. In order to see the printf messages the Debug s
 
 **Launcing the application**
 1. Make sure that the board is connected to the PC and the Serial coonnection established as expected
-2. Open the Project on the STM32CubeIDE by selecting new "STM32 Project from existing STM32CubeMX configuration file (*.ioc)"
-3. goto the project directory and select the sample_app.ioc file
+3. Create new projects from an archive file or directory: File->Import->Existing project into workspace
 4. Open the uart terminal and configure the serial COM port (search it on the device manager)
 5. Configure the serial communicatin:
 a. baudrate to 115200
