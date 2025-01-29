@@ -26,9 +26,9 @@ c. Connect the GND to FTDI GND pad
 
 **Debug configuration**
 The application is using printf. In order to see the printf messages the Debug session you must activate the Debugging session. therefore this part is essential.
-Choose Debug prob - ST-LINK (ST-LINK GDB Server)
-Enable the SWV in the debug configuration Debugger tab
-Enable trace: when the debugging session starts, enable the trace (push the red dot) and set port-0 by pushing the settings button (do once)
+1. Choose Debug prob - ST-LINK (ST-LINK GDB Server)
+2. Enable the SWV in the debug configuration Debugger tab
+3. Enable trace: when the debugging session starts, enable the trace (push the red dot) and set port-0 by pushing the settings button (do once)
 
 **Launcing the application**
 1. Make sure that the board is connected to the PC and the Serial coonnection established as expected
