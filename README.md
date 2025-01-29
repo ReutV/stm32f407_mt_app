@@ -7,10 +7,10 @@ The application uses:
 3. debug options - print out to the IDE Consol (via ST-Link)
 
 **Requierments:**
-STM32F407 Discovery Board + USB Power cable
-FTDI TTL-232R-PCB: USB to TTL serial UART converter
-STM32CubeIDE (free)
-Serial Terminal (free)
+1. STM32F407 Discovery Board + USB Power cable
+2. FTDI TTL-232R-PCB: USB to TTL serial UART converter
+3. STM32CubeIDE (free)
+4. Serial Terminal (free)
 
 **HW setup:**
 1. Establish uart connection to STM32f407 Discovery board
@@ -36,12 +36,12 @@ Enable trace: when the debugging session starts, enable the trace (push the red 
 3. goto the project directory and select the sample_app.ioc file
 4. Open the uart terminal and configure the serial COM port (search it on the device manager)
 5. Configure the serial communicatin:
-  a. baudrate to 115200
-  b. Data bits: 8
-  c. stop bits: 1
-  d. Parity: None
-  e. Flow control: none
-  f. Apend LF
+a. baudrate to 115200
+b. Data bits: 8
+c. stop bits: 1
+d. Parity: None
+e. Flow control: none
+f. Apend LF
 6. Build & Run/Debug
  
 **Functionality**
